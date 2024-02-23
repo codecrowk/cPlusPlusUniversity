@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>  
+#include "views.h"
 using namespace std;
 
 int intMessage(string userMessage){
@@ -14,12 +15,14 @@ class worker{
   	int myNum;
   	string myString;
   	
-  	void addWorker(){
+  	// void addWorker(){
   		
-  	}
+  	// }
 };
 
 int main(){
+  SmartConsole smart;
+  smart.stringConsole("hola: ", "mundo");
   struct {
   	float hourCost,
   	  yearBonification;
@@ -31,27 +34,25 @@ int main(){
   	  yearsWorking = 3;
   } worker;
   
-  struct {
-  	
-  };
-  inputMessage("cuantos annos llevas trabajando? ", worker.yearsWorking);
-  cout << worker.yearsWorking;
+  cout << "hello world";
+  // inputMessage("cuantos annos llevas trabajando? ", worker.yearsWorking);
+  // cout << worker.yearsWorking;
 
-  inputMessage("cuantas horas trabajaste en el mes? ", worker.hoursNumber);
-  inputMessage("cuanto te reduccen en el mes? ", worker.mountReduction);
-  inputMessage("cuantos annos llevas trabajando? ", worker.yearsWorking);
+  // inputMessage("cuantas horas trabajaste en el mes? ", worker.hoursNumber);
+  // inputMessage("cuanto te reduccen en el mes? ", worker.mountReduction);
+  // inputMessage("cuantos annos llevas trabajando? ", worker.yearsWorking);
   
-  inputMessage("cual es el valor de la hora?", worker.mountReduction);
-  inputMessage("cual es el valor de la bonificacion anual?", worker.mountReduction);
+  // inputMessage("cual es el valor de la hora?", worker.mountReduction);
+  // inputMessage("cual es el valor de la bonificacion anual?", worker.mountReduction);
 
 
   
 
   
-  cout << business.hourCost;
+  // cout << business.hourCost;
   
 //  cout << "cuanto vale la hora?";
 //  cin >> business.hourCost;
   
-  return 1;
+  return 0;
 }
