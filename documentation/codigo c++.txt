@@ -1,0 +1,22 @@
+Código C++
+
+#include <iostream>
+#include <cstdlib>  
+
+
+using namespace std; 
+
+	
+
+int main(){
+	string codigo_buscar;
+	int opcion;
+	registro cab,reg;
+	reg=new(struct viajes);
+	
+	cout << "\n Seleccione entre 1 y 5 ";
+	cin >> opcion;
+		
+		
+	return 1;
+}

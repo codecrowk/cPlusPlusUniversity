@@ -1,0 +1,34 @@
+Librerias
+
+#include <iostream>
+#include <cstdlib>  
+
+using namespace std;  
+//definiciones globales y metodos locales
+struct ejemplo
+{ 
+    campos_del_registro;
+    struct ejemplo *apuntador;
+};
+
+typedef struct ejemplo *registro;
+registro cab,ant,p;
+
+variables glogales
+
+int main() {
+     variables locales main
+     registro reg=new(struct ejemplo);  para llamar un nuevo registro
+     cout << "\n mensaje ";		
+     cin>>resp;
+return 0;
+}
+
+Nota= para hacer referencia a un campo del registro se hace asi
+      direccion->nombre_campo
+      ejemplo
+      reg->identificacion;
+
+
+
+

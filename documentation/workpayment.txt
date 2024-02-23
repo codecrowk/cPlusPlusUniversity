@@ -1,0 +1,2 @@
+// salario bruto, salario sin deducciones ni bonificaciones (solo horas * pagoHora)
+// salario neto, con deducciones y bonificaciones
